@@ -1,0 +1,13 @@
+{
+  "train_dir": "data/cats-v-dogs/training",
+  "validation_dir": "data/cats-v-dogs/validation",
+  "image_size": [
+    150,
+    150
+  ],
+  "batch_size": 20,
+  "epochs": 30,
+  "learning_rate": 0.0001,
+  "dropout_rate": 0.5,
+  "model_save_path": "cat_vs_dog_classifier.h5"
+}
