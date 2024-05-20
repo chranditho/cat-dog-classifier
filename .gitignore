@@ -13,3 +13,6 @@ venv/
 
 # Data directory
 data/
+
+# Trained Model
+*.h5

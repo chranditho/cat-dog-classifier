@@ -97,3 +97,21 @@ The model will be trained with the default parameters:
 * Epochs: 30
 * Batch size: 20
 * Dropout rate: 0.5
+
+## Running the Trained Model
+
+After training the model, you can use the `run_model.sj` script to make predictions on new images.
+
+1. Make the script executable:
+
+``` bash
+chmod +x run_model.sh
+```
+
+2. Run the run_model.sh script with the path to the image:
+
+``` bash
+./run_model.sh <path_to_image>
+```
+
+This will output whether the image is predicted to be a cat or a dog.
