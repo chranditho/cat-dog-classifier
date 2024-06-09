@@ -16,3 +16,4 @@ data/
 
 # Trained Model
 *.h5
+*.keras

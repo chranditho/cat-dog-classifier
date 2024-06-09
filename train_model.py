@@ -1,8 +1,9 @@
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout, Input
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout, BatchNormalization, Input
 from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
 import matplotlib.pyplot as plt
 import json
 import os
@@ -20,6 +21,10 @@ learning_rate = config['learning_rate']
 dropout_rate = config['dropout_rate']
 model_save_path = config['model_save_path']
 
+# Ensure the model save path ends with .keras
+if not model_save_path.endswith('.keras'):
+    model_save_path += '.keras'
+
 # Image data generators for loading and augmenting images
 train_datagen = ImageDataGenerator(
     rescale=1./255,
@@ -32,7 +37,9 @@ train_datagen = ImageDataGenerator(
     fill_mode='nearest'
 )
 
-validation_datagen = ImageDataGenerator(rescale=1./255)
+validation_datagen = ImageDataGenerator(
+    rescale=1./255
+)
 
 # Load images from directories
 train_generator = train_datagen.flow_from_directory(
@@ -49,16 +56,24 @@ validation_generator = validation_datagen.flow_from_directory(
     class_mode='binary'
 )
 
+# Calculate steps per epoch
+steps_per_epoch = train_generator.samples // batch_size
+validation_steps = validation_generator.samples // batch_size
+
 # Building the CNN model
 model = Sequential([
     Input(shape=(image_size[0], image_size[1], 3)),
     Conv2D(32, (3, 3), activation='relu'),
+    BatchNormalization(),
     MaxPooling2D(2, 2),
     Conv2D(64, (3, 3), activation='relu'),
+    BatchNormalization(),
     MaxPooling2D(2, 2),
     Conv2D(128, (3, 3), activation='relu'),
+    BatchNormalization(),
     MaxPooling2D(2, 2),
     Conv2D(128, (3, 3), activation='relu'),
+    BatchNormalization(),
     MaxPooling2D(2, 2),
     Flatten(),
     Dense(512, activation='relu'),
@@ -69,19 +84,24 @@ model = Sequential([
 # Update optimizer argument
 model.compile(optimizer=Adam(learning_rate=learning_rate),
               loss='binary_crossentropy',
-              metrics=['accuracy'])
+              metrics=['accuracy', 'Precision', 'Recall'])
+
+# Callbacks
+callbacks = [
+    EarlyStopping(patience=10, restore_best_weights=True),
+    ModelCheckpoint(model_save_path, save_best_only=True),
+    ReduceLROnPlateau(factor=0.1, patience=5, min_lr=1e-7)
+]
 
 # Training the model
 history = model.fit(
     train_generator,
-    steps_per_epoch=100,
+    steps_per_epoch=steps_per_epoch,
     epochs=epochs,
     validation_data=validation_generator,
-    validation_steps=50
+    validation_steps=validation_steps,
+    callbacks=callbacks
 )
-
-# Save the model
-model.save(model_save_path)
 
 # Optionally, plot training results
 acc = history.history['accuracy']

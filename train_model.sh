@@ -22,6 +22,7 @@ python -m venv venv
 source venv/bin/activate
 
 # Install dependencies
+pip install --upgrade pip
 pip install -r requirements.txt
 
 # Update config.json with new parameters

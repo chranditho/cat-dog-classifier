@@ -9,5 +9,5 @@
   "epochs": 30,
   "learning_rate": 0.0001,
   "dropout_rate": 0.5,
-  "model_save_path": "cat_vs_dog_classifier.h5"
+  "model_save_path": "cat_vs_dog_classifier"
 }
