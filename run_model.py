@@ -19,7 +19,7 @@ def main(image_path):
         print(f"File {image_path} does not exist.")
         return
 
-    model = load_model('cat_vs_dog_classifier.h5')
+    model = load_model('cat_vs_dog_classifier.keras')
     img_array = load_and_preprocess_image(image_path)
     prediction = model.predict(img_array)
 

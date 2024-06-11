@@ -73,7 +73,7 @@ To train the model with a learning rate of 0.00001, for 50 epochs, a batch size 
 would run:
 
 ```bash
-./setup.sh -l 0.00001 -e 50 -b 32 -d 0.3
+./train_model.sh -l 0.00001 -e 50 -b 32 -d 0.3
 ```
 
 **Default Parameters:**
@@ -100,7 +100,7 @@ The model will be trained with the default parameters:
 
 ## Running the Trained Model
 
-After training the model, you can use the `run_model.sj` script to make predictions on new images.
+After training the model, you can use the `run_model.sh` script to make predictions on new images.
 
 1. Make the script executable:
 
