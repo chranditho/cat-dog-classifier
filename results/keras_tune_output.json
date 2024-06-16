@@ -1,0 +1,1672 @@
+[
+  {
+    "Parameters": [
+      {
+        "Name": "conv_1",
+        "Value": 32
+      },
+      {
+        "Name": "conv_2",
+        "Value": 96
+      },
+      {
+        "Name": "conv_3",
+        "Value": 256
+      },
+      {
+        "Name": "conv_4",
+        "Value": 256
+      },
+      {
+        "Name": "conv_5",
+        "Value": 256
+      },
+      {
+        "Name": "dense_units",
+        "Value": 512
+      },
+      {
+        "Name": "dropout_rate",
+        "Value": 0.3
+      }
+    ],
+    "MetricsList": [
+      {
+        "Loss": 0.6196,
+        "Accuracy": 0.6785,
+        "Precision": 0.6742,
+        "Recall": 0.6646,
+        "ValLoss": 0.4433,
+        "ValAccuracy": 0.7999,
+        "ValPrecision": 0.8081,
+        "ValRecall": 0.8088
+      },
+      {
+        "Loss": 0.4835,
+        "Accuracy": 0.7654,
+        "Precision": 0.7577,
+        "Recall": 0.7661,
+        "ValLoss": 0.3741,
+        "ValAccuracy": 0.829,
+        "ValPrecision": 0.8771,
+        "ValRecall": 0.782
+      },
+      {
+        "Loss": 0.404,
+        "Accuracy": 0.8136,
+        "Precision": 0.8065,
+        "Recall": 0.8151,
+        "ValLoss": 0.3256,
+        "ValAccuracy": 0.8555,
+        "ValPrecision": 0.8727,
+        "ValRecall": 0.8469
+      },
+      {
+        "Loss": 0.344,
+        "Accuracy": 0.8435,
+        "Precision": 0.8383,
+        "Recall": 0.8431,
+        "ValLoss": 0.3202,
+        "ValAccuracy": 0.86,
+        "ValPrecision": 0.8057,
+        "ValRecall": 0.9644
+      },
+      {
+        "Loss": 0.3076,
+        "Accuracy": 0.8629,
+        "Precision": 0.8578,
+        "Recall": 0.863,
+        "ValLoss": 0.2609,
+        "ValAccuracy": 0.8858,
+        "ValPrecision": 0.835,
+        "ValRecall": 0.9736
+      },
+      {
+        "Loss": 0.2783,
+        "Accuracy": 0.8792,
+        "Precision": 0.8743,
+        "Recall": 0.8799,
+        "ValLoss": 0.1943,
+        "ValAccuracy": 0.9223,
+        "ValPrecision": 0.9473,
+        "ValRecall": 0.9013
+      },
+      {
+        "Loss": 0.2544,
+        "Accuracy": 0.8901,
+        "Precision": 0.8844,
+        "Recall": 0.8924,
+        "ValLoss": 0.2012,
+        "ValAccuracy": 0.9186,
+        "ValPrecision": 0.8925,
+        "ValRecall": 0.9596
+      },
+      {
+        "Loss": 0.2443,
+        "Accuracy": 0.8949,
+        "Precision": 0.8915,
+        "Recall": 0.8944,
+        "ValLoss": 0.1811,
+        "ValAccuracy": 0.9237,
+        "ValPrecision": 0.9015,
+        "ValRecall": 0.9584
+      },
+      {
+        "Loss": 0.2257,
+        "Accuracy": 0.9048,
+        "Precision": 0.9008,
+        "Recall": 0.9053,
+        "ValLoss": 0.2049,
+        "ValAccuracy": 0.9114,
+        "ValPrecision": 0.9147,
+        "ValRecall": 0.9157
+      },
+      {
+        "Loss": 0.2118,
+        "Accuracy": 0.9101,
+        "Precision": 0.906,
+        "Recall": 0.911,
+        "ValLoss": 0.154,
+        "ValAccuracy": 0.9338,
+        "ValPrecision": 0.9231,
+        "ValRecall": 0.9527
+      },
+      {
+        "Loss": 0.2065,
+        "Accuracy": 0.9117,
+        "Precision": 0.9084,
+        "Recall": 0.9118,
+        "ValLoss": 0.1215,
+        "ValAccuracy": 0.9521,
+        "ValPrecision": 0.9373,
+        "ValRecall": 0.9733
+      },
+      {
+        "Loss": 0.1915,
+        "Accuracy": 0.9194,
+        "Precision": 0.9171,
+        "Recall": 0.9185,
+        "ValLoss": 0.1657,
+        "ValAccuracy": 0.9256,
+        "ValPrecision": 0.9764,
+        "ValRecall": 0.8787
+      },
+      {
+        "Loss": 0.1847,
+        "Accuracy": 0.9224,
+        "Precision": 0.9191,
+        "Recall": 0.9227,
+        "ValLoss": 0.1588,
+        "ValAccuracy": 0.9295,
+        "ValPrecision": 0.9477,
+        "ValRecall": 0.9154
+      },
+      {
+        "Loss": 0.1782,
+        "Accuracy": 0.9253,
+        "Precision": 0.9225,
+        "Recall": 0.9252,
+        "ValLoss": 0.1319,
+        "ValAccuracy": 0.9469,
+        "ValPrecision": 0.97,
+        "ValRecall": 0.9269
+      },
+      {
+        "Loss": 0.1711,
+        "Accuracy": 0.9284,
+        "Precision": 0.9249,
+        "Recall": 0.9292,
+        "ValLoss": 0.1195,
+        "ValAccuracy": 0.9521,
+        "ValPrecision": 0.9323,
+        "ValRecall": 0.9794
+      },
+      {
+        "Loss": 0.1658,
+        "Accuracy": 0.9306,
+        "Precision": 0.9269,
+        "Recall": 0.9318,
+        "ValLoss": 0.1128,
+        "ValAccuracy": 0.9516,
+        "ValPrecision": 0.9454,
+        "ValRecall": 0.963
+      },
+      {
+        "Loss": 0.157,
+        "Accuracy": 0.9359,
+        "Precision": 0.9319,
+        "Recall": 0.9375,
+        "ValLoss": 0.1214,
+        "ValAccuracy": 0.9469,
+        "ValPrecision": 0.9503,
+        "ValRecall": 0.9478
+      },
+      {
+        "Loss": 0.154,
+        "Accuracy": 0.936,
+        "Precision": 0.9325,
+        "Recall": 0.9372,
+        "ValLoss": 0.1069,
+        "ValAccuracy": 0.9534,
+        "ValPrecision": 0.9598,
+        "ValRecall": 0.9507
+      },
+      {
+        "Loss": 0.1461,
+        "Accuracy": 0.9392,
+        "Precision": 0.9359,
+        "Recall": 0.9403,
+        "ValLoss": 0.1068,
+        "ValAccuracy": 0.9542,
+        "ValPrecision": 0.9422,
+        "ValRecall": 0.9719
+      },
+      {
+        "Loss": 0.1426,
+        "Accuracy": 0.9426,
+        "Precision": 0.9391,
+        "Recall": 0.9439,
+        "ValLoss": 0.1093,
+        "ValAccuracy": 0.9549,
+        "ValPrecision": 0.9661,
+        "ValRecall": 0.947
+      },
+      {
+        "Loss": 0.142,
+        "Accuracy": 0.9413,
+        "Precision": 0.9392,
+        "Recall": 0.941,
+        "ValLoss": 0.0985,
+        "ValAccuracy": 0.9611,
+        "ValPrecision": 0.9667,
+        "ValRecall": 0.9584
+      },
+      {
+        "Loss": 0.1365,
+        "Accuracy": 0.9445,
+        "Precision": 0.942,
+        "Recall": 0.9448,
+        "ValLoss": 0.0883,
+        "ValAccuracy": 0.9633,
+        "ValPrecision": 0.9688,
+        "ValRecall": 0.9607
+      },
+      {
+        "Loss": 0.1304,
+        "Accuracy": 0.9457,
+        "Precision": 0.9438,
+        "Recall": 0.9455,
+        "ValLoss": 0.0984,
+        "ValAccuracy": 0.96,
+        "ValPrecision": 0.9806,
+        "ValRecall": 0.9421
+      },
+      {
+        "Loss": 0.1271,
+        "Accuracy": 0.9479,
+        "Precision": 0.946,
+        "Recall": 0.9477,
+        "ValLoss": 0.0937,
+        "ValAccuracy": 0.962,
+        "ValPrecision": 0.9773,
+        "ValRecall": 0.9493
+      },
+      {
+        "Loss": 0.124,
+        "Accuracy": 0.95,
+        "Precision": 0.9479,
+        "Recall": 0.9501,
+        "ValLoss": 0.0833,
+        "ValAccuracy": 0.9638,
+        "ValPrecision": 0.9715,
+        "ValRecall": 0.9587
+      },
+      {
+        "Loss": 0.1204,
+        "Accuracy": 0.9519,
+        "Precision": 0.949,
+        "Recall": 0.9529,
+        "ValLoss": 0.0898,
+        "ValAccuracy": 0.9632,
+        "ValPrecision": 0.9773,
+        "ValRecall": 0.9515
+      },
+      {
+        "Loss": 0.1206,
+        "Accuracy": 0.9494,
+        "Precision": 0.947,
+        "Recall": 0.95,
+        "ValLoss": 0.0806,
+        "ValAccuracy": 0.9654,
+        "ValPrecision": 0.9607,
+        "ValRecall": 0.9736
+      },
+      {
+        "Loss": 0.119,
+        "Accuracy": 0.9512,
+        "Precision": 0.9481,
+        "Recall": 0.9525,
+        "ValLoss": 0.0653,
+        "ValAccuracy": 0.9737,
+        "ValPrecision": 0.9814,
+        "ValRecall": 0.9679
+      },
+      {
+        "Loss": 0.1115,
+        "Accuracy": 0.9541,
+        "Precision": 0.9521,
+        "Recall": 0.9543,
+        "ValLoss": 0.0988,
+        "ValAccuracy": 0.9603,
+        "ValPrecision": 0.9823,
+        "ValRecall": 0.9409
+      },
+      {
+        "Loss": 0.1116,
+        "Accuracy": 0.9552,
+        "Precision": 0.9532,
+        "Recall": 0.9556,
+        "ValLoss": 0.0989,
+        "ValAccuracy": 0.9579,
+        "ValPrecision": 0.9765,
+        "ValRecall": 0.9421
+      }
+    ]
+  },
+  {
+    "Parameters": [
+      {
+        "Name": "conv_1",
+        "Value": 128
+      },
+      {
+        "Name": "conv_2",
+        "Value": 32
+      },
+      {
+        "Name": "conv_3",
+        "Value": 192
+      },
+      {
+        "Name": "conv_4",
+        "Value": 128
+      },
+      {
+        "Name": "conv_5",
+        "Value": 64
+      },
+      {
+        "Name": "dense_units",
+        "Value": 512
+      },
+      {
+        "Name": "dropout_rate",
+        "Value": 0.3
+      }
+    ],
+    "MetricsList": [
+      {
+        "Loss": 0.6208,
+        "Accuracy": 0.6633,
+        "Precision": 0.661,
+        "Recall": 0.6417,
+        "ValLoss": 0.4895,
+        "ValAccuracy": 0.7576,
+        "ValPrecision": 0.8303,
+        "ValRecall": 0.6735
+      },
+      {
+        "Loss": 0.507,
+        "Accuracy": 0.7512,
+        "Precision": 0.7492,
+        "Recall": 0.7398,
+        "ValLoss": 0.5445,
+        "ValAccuracy": 0.7427,
+        "ValPrecision": 0.6856,
+        "ValRecall": 0.9369
+      },
+      {
+        "Loss": 0.441,
+        "Accuracy": 0.7907,
+        "Precision": 0.7854,
+        "Recall": 0.788,
+        "ValLoss": 0.3201,
+        "ValAccuracy": 0.8572,
+        "ValPrecision": 0.8458,
+        "ValRecall": 0.8884
+      },
+      {
+        "Loss": 0.3838,
+        "Accuracy": 0.8228,
+        "Precision": 0.8189,
+        "Recall": 0.8195,
+        "ValLoss": 0.3063,
+        "ValAccuracy": 0.8675,
+        "ValPrecision": 0.9018,
+        "ValRecall": 0.8374
+      },
+      {
+        "Loss": 0.3464,
+        "Accuracy": 0.8444,
+        "Precision": 0.8412,
+        "Recall": 0.8411,
+        "ValLoss": 0.2493,
+        "ValAccuracy": 0.8931,
+        "ValPrecision": 0.8669,
+        "ValRecall": 0.9395
+      },
+      {
+        "Loss": 0.3198,
+        "Accuracy": 0.8592,
+        "Precision": 0.8552,
+        "Recall": 0.8578,
+        "ValLoss": 0.2194,
+        "ValAccuracy": 0.907,
+        "ValPrecision": 0.8883,
+        "ValRecall": 0.9401
+      },
+      {
+        "Loss": 0.2971,
+        "Accuracy": 0.8688,
+        "Precision": 0.8647,
+        "Recall": 0.8679,
+        "ValLoss": 0.2205,
+        "ValAccuracy": 0.9079,
+        "ValPrecision": 0.9117,
+        "ValRecall": 0.912
+      },
+      {
+        "Loss": 0.2796,
+        "Accuracy": 0.8779,
+        "Precision": 0.8734,
+        "Recall": 0.878,
+        "ValLoss": 0.2352,
+        "ValAccuracy": 0.8957,
+        "ValPrecision": 0.8482,
+        "ValRecall": 0.9745
+      },
+      {
+        "Loss": 0.2661,
+        "Accuracy": 0.8849,
+        "Precision": 0.8813,
+        "Recall": 0.8843,
+        "ValLoss": 0.194,
+        "ValAccuracy": 0.9211,
+        "ValPrecision": 0.9202,
+        "ValRecall": 0.9295
+      },
+      {
+        "Loss": 0.2515,
+        "Accuracy": 0.8903,
+        "Precision": 0.886,
+        "Recall": 0.8905,
+        "ValLoss": 0.2207,
+        "ValAccuracy": 0.9022,
+        "ValPrecision": 0.8719,
+        "ValRecall": 0.9527
+      },
+      {
+        "Loss": 0.243,
+        "Accuracy": 0.8963,
+        "Precision": 0.8932,
+        "Recall": 0.8953,
+        "ValLoss": 0.1625,
+        "ValAccuracy": 0.9278,
+        "ValPrecision": 0.9289,
+        "ValRecall": 0.9332
+      },
+      {
+        "Loss": 0.2301,
+        "Accuracy": 0.9015,
+        "Precision": 0.8973,
+        "Recall": 0.9021,
+        "ValLoss": 0.1471,
+        "ValAccuracy": 0.9403,
+        "ValPrecision": 0.9555,
+        "ValRecall": 0.9289
+      },
+      {
+        "Loss": 0.2269,
+        "Accuracy": 0.9032,
+        "Precision": 0.8995,
+        "Recall": 0.9034,
+        "ValLoss": 0.1633,
+        "ValAccuracy": 0.9292,
+        "ValPrecision": 0.9032,
+        "ValRecall": 0.9682
+      },
+      {
+        "Loss": 0.2135,
+        "Accuracy": 0.9094,
+        "Precision": 0.9063,
+        "Recall": 0.909,
+        "ValLoss": 0.1509,
+        "ValAccuracy": 0.9349,
+        "ValPrecision": 0.926,
+        "ValRecall": 0.9513
+      },
+      {
+        "Loss": 0.2069,
+        "Accuracy": 0.9121,
+        "Precision": 0.9087,
+        "Recall": 0.9122,
+        "ValLoss": 0.1532,
+        "ValAccuracy": 0.9347,
+        "ValPrecision": 0.935,
+        "ValRecall": 0.9403
+      },
+      {
+        "Loss": 0.201,
+        "Accuracy": 0.9146,
+        "Precision": 0.9134,
+        "Recall": 0.9122,
+        "ValLoss": 0.1395,
+        "ValAccuracy": 0.9445,
+        "ValPrecision": 0.9386,
+        "ValRecall": 0.9561
+      },
+      {
+        "Loss": 0.1964,
+        "Accuracy": 0.9166,
+        "Precision": 0.9135,
+        "Recall": 0.9165,
+        "ValLoss": 0.1257,
+        "ValAccuracy": 0.9478,
+        "ValPrecision": 0.9337,
+        "ValRecall": 0.9688
+      },
+      {
+        "Loss": 0.1904,
+        "Accuracy": 0.9188,
+        "Precision": 0.9159,
+        "Recall": 0.9186,
+        "ValLoss": 0.1405,
+        "ValAccuracy": 0.9388,
+        "ValPrecision": 0.9438,
+        "ValRecall": 0.9386
+      },
+      {
+        "Loss": 0.1848,
+        "Accuracy": 0.9225,
+        "Precision": 0.9201,
+        "Recall": 0.9218,
+        "ValLoss": 0.1281,
+        "ValAccuracy": 0.9451,
+        "ValPrecision": 0.94,
+        "ValRecall": 0.9559
+      },
+      {
+        "Loss": 0.181,
+        "Accuracy": 0.9245,
+        "Precision": 0.9217,
+        "Recall": 0.9243,
+        "ValLoss": 0.1636,
+        "ValAccuracy": 0.9331,
+        "ValPrecision": 0.9153,
+        "ValRecall": 0.9607
+      },
+      {
+        "Loss": 0.1754,
+        "Accuracy": 0.9265,
+        "Precision": 0.9232,
+        "Recall": 0.927,
+        "ValLoss": 0.1254,
+        "ValAccuracy": 0.9464,
+        "ValPrecision": 0.9705,
+        "ValRecall": 0.9255
+      },
+      {
+        "Loss": 0.172,
+        "Accuracy": 0.9292,
+        "Precision": 0.9264,
+        "Recall": 0.9293,
+        "ValLoss": 0.1209,
+        "ValAccuracy": 0.9481,
+        "ValPrecision": 0.9483,
+        "ValRecall": 0.9524
+      },
+      {
+        "Loss": 0.1664,
+        "Accuracy": 0.9305,
+        "Precision": 0.9286,
+        "Recall": 0.9295,
+        "ValLoss": 0.122,
+        "ValAccuracy": 0.9487,
+        "ValPrecision": 0.9342,
+        "ValRecall": 0.9699
+      },
+      {
+        "Loss": 0.163,
+        "Accuracy": 0.9328,
+        "Precision": 0.9295,
+        "Recall": 0.9335,
+        "ValLoss": 0.1238,
+        "ValAccuracy": 0.9481,
+        "ValPrecision": 0.9229,
+        "ValRecall": 0.9825
+      },
+      {
+        "Loss": 0.1594,
+        "Accuracy": 0.9339,
+        "Precision": 0.9308,
+        "Recall": 0.9344,
+        "ValLoss": 0.1014,
+        "ValAccuracy": 0.9591,
+        "ValPrecision": 0.9631,
+        "ValRecall": 0.9584
+      },
+      {
+        "Loss": 0.1565,
+        "Accuracy": 0.9349,
+        "Precision": 0.9333,
+        "Recall": 0.9339,
+        "ValLoss": 0.111,
+        "ValAccuracy": 0.9543,
+        "ValPrecision": 0.9649,
+        "ValRecall": 0.947
+      },
+      {
+        "Loss": 0.1558,
+        "Accuracy": 0.9353,
+        "Precision": 0.9321,
+        "Recall": 0.9361,
+        "ValLoss": 0.1213,
+        "ValAccuracy": 0.9531,
+        "ValPrecision": 0.9709,
+        "ValRecall": 0.9384
+      },
+      {
+        "Loss": 0.1492,
+        "Accuracy": 0.9383,
+        "Precision": 0.9365,
+        "Recall": 0.9377,
+        "ValLoss": 0.0977,
+        "ValAccuracy": 0.9614,
+        "ValPrecision": 0.9585,
+        "ValRecall": 0.9679
+      },
+      {
+        "Loss": 0.1497,
+        "Accuracy": 0.9374,
+        "Precision": 0.9354,
+        "Recall": 0.937,
+        "ValLoss": 0.1595,
+        "ValAccuracy": 0.9389,
+        "ValPrecision": 0.9834,
+        "ValRecall": 0.8983
+      },
+      {
+        "Loss": 0.1486,
+        "Accuracy": 0.9385,
+        "Precision": 0.9366,
+        "Recall": 0.9379,
+        "ValLoss": 0.093,
+        "ValAccuracy": 0.9606,
+        "ValPrecision": 0.9667,
+        "ValRecall": 0.9576
+      }
+    ]
+  },
+  {
+    "Parameters": [
+      {
+        "Name": "conv_1",
+        "Value": 32
+      },
+      {
+        "Name": "conv_2",
+        "Value": 96
+      },
+      {
+        "Name": "conv_3",
+        "Value": 128
+      },
+      {
+        "Name": "conv_4",
+        "Value": 64
+      },
+      {
+        "Name": "conv_5",
+        "Value": 192
+      },
+      {
+        "Name": "dense_units",
+        "Value": 384
+      },
+      {
+        "Name": "dropout_rate",
+        "Value": 0.4
+      }
+    ],
+    "MetricsList": [
+      {
+        "Loss": 0.6474,
+        "Accuracy": 0.6593,
+        "Precision": 0.6549,
+        "Recall": 0.6433,
+        "ValLoss": 0.5466,
+        "ValAccuracy": 0.7272,
+        "ValPrecision": 0.8477,
+        "ValRecall": 0.5823
+      },
+      {
+        "Loss": 0.5224,
+        "Accuracy": 0.7421,
+        "Precision": 0.7377,
+        "Recall": 0.7346,
+        "ValLoss": 0.4203,
+        "ValAccuracy": 0.801,
+        "ValPrecision": 0.7614,
+        "ValRecall": 0.9013
+      },
+      {
+        "Loss": 0.4567,
+        "Accuracy": 0.7827,
+        "Precision": 0.7779,
+        "Recall": 0.7787,
+        "ValLoss": 0.3685,
+        "ValAccuracy": 0.832,
+        "ValPrecision": 0.8169,
+        "ValRecall": 0.8745
+      },
+      {
+        "Loss": 0.4037,
+        "Accuracy": 0.8138,
+        "Precision": 0.8077,
+        "Recall": 0.8135,
+        "ValLoss": 0.308,
+        "ValAccuracy": 0.8606,
+        "ValPrecision": 0.8462,
+        "ValRecall": 0.8959
+      },
+      {
+        "Loss": 0.3645,
+        "Accuracy": 0.8362,
+        "Precision": 0.8297,
+        "Recall": 0.8374,
+        "ValLoss": 0.3047,
+        "ValAccuracy": 0.8719,
+        "ValPrecision": 0.9346,
+        "ValRecall": 0.8114
+      },
+      {
+        "Loss": 0.3365,
+        "Accuracy": 0.8503,
+        "Precision": 0.8464,
+        "Recall": 0.8484,
+        "ValLoss": 0.3311,
+        "ValAccuracy": 0.8515,
+        "ValPrecision": 0.793,
+        "ValRecall": 0.9682
+      },
+      {
+        "Loss": 0.3103,
+        "Accuracy": 0.8639,
+        "Precision": 0.8596,
+        "Recall": 0.8633,
+        "ValLoss": 0.2352,
+        "ValAccuracy": 0.8988,
+        "ValPrecision": 0.9432,
+        "ValRecall": 0.8578
+      },
+      {
+        "Loss": 0.2942,
+        "Accuracy": 0.8719,
+        "Precision": 0.8669,
+        "Recall": 0.8724,
+        "ValLoss": 0.2079,
+        "ValAccuracy": 0.909,
+        "ValPrecision": 0.9057,
+        "ValRecall": 0.9218
+      },
+      {
+        "Loss": 0.2796,
+        "Accuracy": 0.8781,
+        "Precision": 0.8733,
+        "Recall": 0.8786,
+        "ValLoss": 0.2145,
+        "ValAccuracy": 0.9057,
+        "ValPrecision": 0.9551,
+        "ValRecall": 0.8598
+      },
+      {
+        "Loss": 0.2639,
+        "Accuracy": 0.8853,
+        "Precision": 0.8826,
+        "Recall": 0.8834,
+        "ValLoss": 0.1903,
+        "ValAccuracy": 0.9216,
+        "ValPrecision": 0.9377,
+        "ValRecall": 0.9103
+      },
+      {
+        "Loss": 0.2532,
+        "Accuracy": 0.8933,
+        "Precision": 0.8902,
+        "Recall": 0.892,
+        "ValLoss": 0.1952,
+        "ValAccuracy": 0.9192,
+        "ValPrecision": 0.9558,
+        "ValRecall": 0.8862
+      },
+      {
+        "Loss": 0.2423,
+        "Accuracy": 0.8964,
+        "Precision": 0.8926,
+        "Recall": 0.8962,
+        "ValLoss": 0.1732,
+        "ValAccuracy": 0.925,
+        "ValPrecision": 0.9342,
+        "ValRecall": 0.9211
+      },
+      {
+        "Loss": 0.2359,
+        "Accuracy": 0.8986,
+        "Precision": 0.896,
+        "Recall": 0.8973,
+        "ValLoss": 0.1864,
+        "ValAccuracy": 0.9214,
+        "ValPrecision": 0.9144,
+        "ValRecall": 0.9372
+      },
+      {
+        "Loss": 0.2273,
+        "Accuracy": 0.9018,
+        "Precision": 0.8983,
+        "Recall": 0.9017,
+        "ValLoss": 0.1713,
+        "ValAccuracy": 0.9269,
+        "ValPrecision": 0.8904,
+        "ValRecall": 0.9808
+      },
+      {
+        "Loss": 0.2169,
+        "Accuracy": 0.9077,
+        "Precision": 0.906,
+        "Recall": 0.9055,
+        "ValLoss": 0.1589,
+        "ValAccuracy": 0.935,
+        "ValPrecision": 0.9472,
+        "ValRecall": 0.9271
+      },
+      {
+        "Loss": 0.2113,
+        "Accuracy": 0.9104,
+        "Precision": 0.9065,
+        "Recall": 0.9111,
+        "ValLoss": 0.1753,
+        "ValAccuracy": 0.924,
+        "ValPrecision": 0.9469,
+        "ValRecall": 0.9051
+      },
+      {
+        "Loss": 0.2025,
+        "Accuracy": 0.915,
+        "Precision": 0.9101,
+        "Recall": 0.917,
+        "ValLoss": 0.162,
+        "ValAccuracy": 0.9304,
+        "ValPrecision": 0.9002,
+        "ValRecall": 0.9748
+      },
+      {
+        "Loss": 0.1966,
+        "Accuracy": 0.916,
+        "Precision": 0.9131,
+        "Recall": 0.9157,
+        "ValLoss": 0.1352,
+        "ValAccuracy": 0.9403,
+        "ValPrecision": 0.9216,
+        "ValRecall": 0.9679
+      },
+      {
+        "Loss": 0.1923,
+        "Accuracy": 0.9194,
+        "Precision": 0.9154,
+        "Recall": 0.9206,
+        "ValLoss": 0.1392,
+        "ValAccuracy": 0.9416,
+        "ValPrecision": 0.9521,
+        "ValRecall": 0.9352
+      },
+      {
+        "Loss": 0.1869,
+        "Accuracy": 0.921,
+        "Precision": 0.918,
+        "Recall": 0.9209,
+        "ValLoss": 0.1198,
+        "ValAccuracy": 0.9493,
+        "ValPrecision": 0.9434,
+        "ValRecall": 0.9604
+      },
+      {
+        "Loss": 0.1851,
+        "Accuracy": 0.9225,
+        "Precision": 0.9191,
+        "Recall": 0.9229,
+        "ValLoss": 0.1719,
+        "ValAccuracy": 0.9225,
+        "ValPrecision": 0.9195,
+        "ValRecall": 0.9332
+      },
+      {
+        "Loss": 0.1793,
+        "Accuracy": 0.9249,
+        "Precision": 0.9218,
+        "Recall": 0.9252,
+        "ValLoss": 0.1438,
+        "ValAccuracy": 0.938,
+        "ValPrecision": 0.9491,
+        "ValRecall": 0.9312
+      },
+      {
+        "Loss": 0.1735,
+        "Accuracy": 0.9278,
+        "Precision": 0.9246,
+        "Recall": 0.9283,
+        "ValLoss": 0.1497,
+        "ValAccuracy": 0.9373,
+        "ValPrecision": 0.9764,
+        "ValRecall": 0.9017
+      },
+      {
+        "Loss": 0.1683,
+        "Accuracy": 0.9298,
+        "Precision": 0.9267,
+        "Recall": 0.9302,
+        "ValLoss": 0.1363,
+        "ValAccuracy": 0.9475,
+        "ValPrecision": 0.9792,
+        "ValRecall": 0.9189
+      },
+      {
+        "Loss": 0.1652,
+        "Accuracy": 0.9315,
+        "Precision": 0.9284,
+        "Recall": 0.932,
+        "ValLoss": 0.1126,
+        "ValAccuracy": 0.9558,
+        "ValPrecision": 0.9347,
+        "ValRecall": 0.9842
+      },
+      {
+        "Loss": 0.1592,
+        "Accuracy": 0.9343,
+        "Precision": 0.933,
+        "Recall": 0.9329,
+        "ValLoss": 0.1132,
+        "ValAccuracy": 0.9533,
+        "ValPrecision": 0.9392,
+        "ValRecall": 0.9736
+      },
+      {
+        "Loss": 0.1583,
+        "Accuracy": 0.9358,
+        "Precision": 0.9337,
+        "Recall": 0.9353,
+        "ValLoss": 0.1143,
+        "ValAccuracy": 0.9518,
+        "ValPrecision": 0.9356,
+        "ValRecall": 0.9748
+      },
+      {
+        "Loss": 0.1544,
+        "Accuracy": 0.9357,
+        "Precision": 0.9341,
+        "Recall": 0.9348,
+        "ValLoss": 0.182,
+        "ValAccuracy": 0.9235,
+        "ValPrecision": 0.8751,
+        "ValRecall": 0.9957
+      },
+      {
+        "Loss": 0.154,
+        "Accuracy": 0.9377,
+        "Precision": 0.9351,
+        "Recall": 0.938,
+        "ValLoss": 0.1173,
+        "ValAccuracy": 0.9522,
+        "ValPrecision": 0.9452,
+        "ValRecall": 0.9644
+      },
+      {
+        "Loss": 0.1526,
+        "Accuracy": 0.9381,
+        "Precision": 0.9347,
+        "Recall": 0.9392,
+        "ValLoss": 0.1351,
+        "ValAccuracy": 0.9419,
+        "ValPrecision": 0.9802,
+        "ValRecall": 0.9071
+      }
+    ]
+  },
+  {
+    "Parameters": [
+      {
+        "Name": "conv_1",
+        "Value": 32
+      },
+      {
+        "Name": "conv_2",
+        "Value": 128
+      },
+      {
+        "Name": "conv_3",
+        "Value": 192
+      },
+      {
+        "Name": "conv_4",
+        "Value": 64
+      },
+      {
+        "Name": "conv_5",
+        "Value": 192
+      },
+      {
+        "Name": "dense_units",
+        "Value": 128
+      },
+      {
+        "Name": "dropout_rate",
+        "Value": 0.2
+      }
+    ],
+    "MetricsList": [
+      {
+        "Loss": 0.619,
+        "Accuracy": 0.669,
+        "Precision": 0.6656,
+        "Recall": 0.6516,
+        "ValLoss": 0.4911,
+        "ValAccuracy": 0.7596,
+        "ValPrecision": 0.827,
+        "ValRecall": 0.6824
+      },
+      {
+        "Loss": 0.5117,
+        "Accuracy": 0.7477,
+        "Precision": 0.7466,
+        "Recall": 0.7342,
+        "ValLoss": 0.5007,
+        "ValAccuracy": 0.7563,
+        "ValPrecision": 0.909,
+        "ValRecall": 0.5927
+      },
+      {
+        "Loss": 0.4338,
+        "Accuracy": 0.7965,
+        "Precision": 0.7909,
+        "Recall": 0.7947,
+        "ValLoss": 0.3753,
+        "ValAccuracy": 0.8283,
+        "ValPrecision": 0.9242,
+        "ValRecall": 0.7311
+      },
+      {
+        "Loss": 0.3706,
+        "Accuracy": 0.8315,
+        "Precision": 0.8258,
+        "Recall": 0.8314,
+        "ValLoss": 0.2775,
+        "ValAccuracy": 0.8825,
+        "ValPrecision": 0.8969,
+        "ValRecall": 0.8756
+      },
+      {
+        "Loss": 0.3366,
+        "Accuracy": 0.8495,
+        "Precision": 0.8445,
+        "Recall": 0.8491,
+        "ValLoss": 0.2394,
+        "ValAccuracy": 0.8999,
+        "ValPrecision": 0.8802,
+        "ValRecall": 0.9355
+      },
+      {
+        "Loss": 0.3064,
+        "Accuracy": 0.8646,
+        "Precision": 0.8591,
+        "Recall": 0.8654,
+        "ValLoss": 0.3792,
+        "ValAccuracy": 0.822,
+        "ValPrecision": 0.9563,
+        "ValRecall": 0.6907
+      },
+      {
+        "Loss": 0.2923,
+        "Accuracy": 0.8719,
+        "Precision": 0.8663,
+        "Recall": 0.8733,
+        "ValLoss": 0.2082,
+        "ValAccuracy": 0.9153,
+        "ValPrecision": 0.9115,
+        "ValRecall": 0.9278
+      },
+      {
+        "Loss": 0.2707,
+        "Accuracy": 0.8815,
+        "Precision": 0.8779,
+        "Recall": 0.8806,
+        "ValLoss": 0.2291,
+        "ValAccuracy": 0.9013,
+        "ValPrecision": 0.8803,
+        "ValRecall": 0.9386
+      },
+      {
+        "Loss": 0.2549,
+        "Accuracy": 0.891,
+        "Precision": 0.8879,
+        "Recall": 0.8898,
+        "ValLoss": 0.2197,
+        "ValAccuracy": 0.9048,
+        "ValPrecision": 0.9465,
+        "ValRecall": 0.8667
+      },
+      {
+        "Loss": 0.2472,
+        "Accuracy": 0.8921,
+        "Precision": 0.8869,
+        "Recall": 0.8935,
+        "ValLoss": 0.1598,
+        "ValAccuracy": 0.9338,
+        "ValPrecision": 0.9425,
+        "ValRecall": 0.93
+      },
+      {
+        "Loss": 0.2332,
+        "Accuracy": 0.8986,
+        "Precision": 0.8944,
+        "Recall": 0.899,
+        "ValLoss": 0.1673,
+        "ValAccuracy": 0.931,
+        "ValPrecision": 0.9447,
+        "ValRecall": 0.9217
+      },
+      {
+        "Loss": 0.2213,
+        "Accuracy": 0.9068,
+        "Precision": 0.9032,
+        "Recall": 0.9068,
+        "ValLoss": 0.1553,
+        "ValAccuracy": 0.934,
+        "ValPrecision": 0.9485,
+        "ValRecall": 0.9237
+      },
+      {
+        "Loss": 0.2114,
+        "Accuracy": 0.9113,
+        "Precision": 0.9083,
+        "Recall": 0.911,
+        "ValLoss": 0.164,
+        "ValAccuracy": 0.9304,
+        "ValPrecision": 0.9084,
+        "ValRecall": 0.9639
+      },
+      {
+        "Loss": 0.203,
+        "Accuracy": 0.9149,
+        "Precision": 0.9107,
+        "Recall": 0.9161,
+        "ValLoss": 0.1455,
+        "ValAccuracy": 0.9415,
+        "ValPrecision": 0.9464,
+        "ValRecall": 0.9412
+      },
+      {
+        "Loss": 0.1969,
+        "Accuracy": 0.9172,
+        "Precision": 0.9134,
+        "Recall": 0.918,
+        "ValLoss": 0.1702,
+        "ValAccuracy": 0.9226,
+        "ValPrecision": 0.9624,
+        "ValRecall": 0.8865
+      },
+      {
+        "Loss": 0.1901,
+        "Accuracy": 0.921,
+        "Precision": 0.9163,
+        "Recall": 0.923,
+        "ValLoss": 0.1388,
+        "ValAccuracy": 0.9439,
+        "ValPrecision": 0.9513,
+        "ValRecall": 0.9406
+      },
+      {
+        "Loss": 0.1849,
+        "Accuracy": 0.9216,
+        "Precision": 0.9182,
+        "Recall": 0.9219,
+        "ValLoss": 0.1342,
+        "ValAccuracy": 0.9466,
+        "ValPrecision": 0.9406,
+        "ValRecall": 0.9581
+      },
+      {
+        "Loss": 0.1816,
+        "Accuracy": 0.9257,
+        "Precision": 0.9228,
+        "Recall": 0.9257,
+        "ValLoss": 0.1278,
+        "ValAccuracy": 0.9481,
+        "ValPrecision": 0.9514,
+        "ValRecall": 0.949
+      },
+      {
+        "Loss": 0.1742,
+        "Accuracy": 0.9284,
+        "Precision": 0.925,
+        "Recall": 0.9293,
+        "ValLoss": 0.1094,
+        "ValAccuracy": 0.9591,
+        "ValPrecision": 0.9534,
+        "ValRecall": 0.969
+      },
+      {
+        "Loss": 0.1685,
+        "Accuracy": 0.93,
+        "Precision": 0.9276,
+        "Recall": 0.9296,
+        "ValLoss": 0.121,
+        "ValAccuracy": 0.9496,
+        "ValPrecision": 0.9332,
+        "ValRecall": 0.9731
+      },
+      {
+        "Loss": 0.1697,
+        "Accuracy": 0.9294,
+        "Precision": 0.9266,
+        "Recall": 0.9295,
+        "ValLoss": 0.1085,
+        "ValAccuracy": 0.9549,
+        "ValPrecision": 0.9738,
+        "ValRecall": 0.9389
+      },
+      {
+        "Loss": 0.1605,
+        "Accuracy": 0.9335,
+        "Precision": 0.9314,
+        "Recall": 0.9328,
+        "ValLoss": 0.1295,
+        "ValAccuracy": 0.9481,
+        "ValPrecision": 0.9182,
+        "ValRecall": 0.9885
+      },
+      {
+        "Loss": 0.1595,
+        "Accuracy": 0.9337,
+        "Precision": 0.9302,
+        "Recall": 0.9349,
+        "ValLoss": 0.1236,
+        "ValAccuracy": 0.9484,
+        "ValPrecision": 0.9704,
+        "ValRecall": 0.9295
+      },
+      {
+        "Loss": 0.1526,
+        "Accuracy": 0.9374,
+        "Precision": 0.9342,
+        "Recall": 0.9383,
+        "ValLoss": 0.1088,
+        "ValAccuracy": 0.9569,
+        "ValPrecision": 0.9614,
+        "ValRecall": 0.9558
+      },
+      {
+        "Loss": 0.1494,
+        "Accuracy": 0.9392,
+        "Precision": 0.9365,
+        "Recall": 0.9395,
+        "ValLoss": 0.103,
+        "ValAccuracy": 0.957,
+        "ValPrecision": 0.9541,
+        "ValRecall": 0.9642
+      },
+      {
+        "Loss": 0.1475,
+        "Accuracy": 0.9401,
+        "Precision": 0.9367,
+        "Recall": 0.9412,
+        "ValLoss": 0.0933,
+        "ValAccuracy": 0.9635,
+        "ValPrecision": 0.9521,
+        "ValRecall": 0.9794
+      },
+      {
+        "Loss": 0.1441,
+        "Accuracy": 0.9402,
+        "Precision": 0.9372,
+        "Recall": 0.9411,
+        "ValLoss": 0.0951,
+        "ValAccuracy": 0.9597,
+        "ValPrecision": 0.954,
+        "ValRecall": 0.9696
+      },
+      {
+        "Loss": 0.1407,
+        "Accuracy": 0.9426,
+        "Precision": 0.9392,
+        "Recall": 0.9439,
+        "ValLoss": 0.0872,
+        "ValAccuracy": 0.9635,
+        "ValPrecision": 0.9629,
+        "ValRecall": 0.9673
+      },
+      {
+        "Loss": 0.1403,
+        "Accuracy": 0.9432,
+        "Precision": 0.9413,
+        "Recall": 0.9428,
+        "ValLoss": 0.0942,
+        "ValAccuracy": 0.9629,
+        "ValPrecision": 0.9561,
+        "ValRecall": 0.9736
+      },
+      {
+        "Loss": 0.1344,
+        "Accuracy": 0.9449,
+        "Precision": 0.9429,
+        "Recall": 0.9448,
+        "ValLoss": 0.0867,
+        "ValAccuracy": 0.963,
+        "ValPrecision": 0.9569,
+        "ValRecall": 0.9731
+      }
+    ]
+  },
+  {
+    "Parameters": [
+      {
+        "Name": "conv_1",
+        "Value": 96
+      },
+      {
+        "Name": "conv_2",
+        "Value": 128
+      },
+      {
+        "Name": "conv_3",
+        "Value": 256
+      },
+      {
+        "Name": "conv_4",
+        "Value": 256
+      },
+      {
+        "Name": "conv_5",
+        "Value": 128
+      },
+      {
+        "Name": "dense_units",
+        "Value": 128
+      },
+      {
+        "Name": "dropout_rate",
+        "Value": 0.3
+      }
+    ],
+    "MetricsList": [
+      {
+        "Loss": 0.6373,
+        "Accuracy": 0.6602,
+        "Precision": 0.6555,
+        "Recall": 0.6459,
+        "ValLoss": 0.5176,
+        "ValAccuracy": 0.7491,
+        "ValPrecision": 0.809,
+        "ValRecall": 0.68
+      },
+      {
+        "Loss": 0.5217,
+        "Accuracy": 0.7409,
+        "Precision": 0.7373,
+        "Recall": 0.7319,
+        "ValLoss": 0.4429,
+        "ValAccuracy": 0.7916,
+        "ValPrecision": 0.7683,
+        "ValRecall": 0.8604
+      },
+      {
+        "Loss": 0.4358,
+        "Accuracy": 0.7958,
+        "Precision": 0.7913,
+        "Recall": 0.7921,
+        "ValLoss": 0.3186,
+        "ValAccuracy": 0.8588,
+        "ValPrecision": 0.8287,
+        "ValRecall": 0.9197
+      },
+      {
+        "Loss": 0.3681,
+        "Accuracy": 0.8338,
+        "Precision": 0.8316,
+        "Recall": 0.8286,
+        "ValLoss": 0.3194,
+        "ValAccuracy": 0.8575,
+        "ValPrecision": 0.8046,
+        "ValRecall": 0.9605
+      },
+      {
+        "Loss": 0.3215,
+        "Accuracy": 0.8589,
+        "Precision": 0.8546,
+        "Recall": 0.8578,
+        "ValLoss": 0.2886,
+        "ValAccuracy": 0.8766,
+        "ValPrecision": 0.9587,
+        "ValRecall": 0.7981
+      },
+      {
+        "Loss": 0.2912,
+        "Accuracy": 0.8719,
+        "Precision": 0.8673,
+        "Recall": 0.8718,
+        "ValLoss": 0.1884,
+        "ValAccuracy": 0.9219,
+        "ValPrecision": 0.9199,
+        "ValRecall": 0.9315
+      },
+      {
+        "Loss": 0.2673,
+        "Accuracy": 0.8845,
+        "Precision": 0.8814,
+        "Recall": 0.8831,
+        "ValLoss": 0.2221,
+        "ValAccuracy": 0.9025,
+        "ValPrecision": 0.8829,
+        "ValRecall": 0.9378
+      },
+      {
+        "Loss": 0.2477,
+        "Accuracy": 0.8949,
+        "Precision": 0.8906,
+        "Recall": 0.8954,
+        "ValLoss": 0.1754,
+        "ValAccuracy": 0.9323,
+        "ValPrecision": 0.9691,
+        "ValRecall": 0.8991
+      },
+      {
+        "Loss": 0.2322,
+        "Accuracy": 0.9017,
+        "Precision": 0.8974,
+        "Recall": 0.9024,
+        "ValLoss": 0.2001,
+        "ValAccuracy": 0.9102,
+        "ValPrecision": 0.8642,
+        "ValRecall": 0.9825
+      },
+      {
+        "Loss": 0.2185,
+        "Accuracy": 0.9089,
+        "Precision": 0.9051,
+        "Recall": 0.9093,
+        "ValLoss": 0.1882,
+        "ValAccuracy": 0.9153,
+        "ValPrecision": 0.9765,
+        "ValRecall": 0.8583
+      },
+      {
+        "Loss": 0.2074,
+        "Accuracy": 0.9117,
+        "Precision": 0.9089,
+        "Recall": 0.9111,
+        "ValLoss": 0.1473,
+        "ValAccuracy": 0.9394,
+        "ValPrecision": 0.9647,
+        "ValRecall": 0.9174
+      },
+      {
+        "Loss": 0.1983,
+        "Accuracy": 0.9176,
+        "Precision": 0.9146,
+        "Recall": 0.9174,
+        "ValLoss": 0.1265,
+        "ValAccuracy": 0.9482,
+        "ValPrecision": 0.9421,
+        "ValRecall": 0.9599
+      },
+      {
+        "Loss": 0.1858,
+        "Accuracy": 0.9232,
+        "Precision": 0.9192,
+        "Recall": 0.9245,
+        "ValLoss": 0.1382,
+        "ValAccuracy": 0.9436,
+        "ValPrecision": 0.9178,
+        "ValRecall": 0.9797
+      },
+      {
+        "Loss": 0.1784,
+        "Accuracy": 0.9265,
+        "Precision": 0.9227,
+        "Recall": 0.9276,
+        "ValLoss": 0.1191,
+        "ValAccuracy": 0.9518,
+        "ValPrecision": 0.9642,
+        "ValRecall": 0.9427
+      },
+      {
+        "Loss": 0.1738,
+        "Accuracy": 0.9277,
+        "Precision": 0.9244,
+        "Recall": 0.9283,
+        "ValLoss": 0.1137,
+        "ValAccuracy": 0.9491,
+        "ValPrecision": 0.9387,
+        "ValRecall": 0.9656
+      },
+      {
+        "Loss": 0.1697,
+        "Accuracy": 0.9291,
+        "Precision": 0.9257,
+        "Recall": 0.9298,
+        "ValLoss": 0.1255,
+        "ValAccuracy": 0.95,
+        "ValPrecision": 0.9417,
+        "ValRecall": 0.9639
+      },
+      {
+        "Loss": 0.16,
+        "Accuracy": 0.9339,
+        "Precision": 0.9317,
+        "Recall": 0.9335,
+        "ValLoss": 0.1129,
+        "ValAccuracy": 0.9572,
+        "ValPrecision": 0.9598,
+        "ValRecall": 0.9581
+      },
+      {
+        "Loss": 0.1578,
+        "Accuracy": 0.9348,
+        "Precision": 0.9326,
+        "Recall": 0.9344,
+        "ValLoss": 0.1182,
+        "ValAccuracy": 0.9491,
+        "ValPrecision": 0.9513,
+        "ValRecall": 0.9513
+      },
+      {
+        "Loss": 0.1491,
+        "Accuracy": 0.9393,
+        "Precision": 0.9365,
+        "Recall": 0.9398,
+        "ValLoss": 0.1184,
+        "ValAccuracy": 0.9525,
+        "ValPrecision": 0.9568,
+        "ValRecall": 0.9521
+      },
+      {
+        "Loss": 0.1477,
+        "Accuracy": 0.9387,
+        "Precision": 0.9353,
+        "Recall": 0.9398,
+        "ValLoss": 0.101,
+        "ValAccuracy": 0.959,
+        "ValPrecision": 0.9484,
+        "ValRecall": 0.9745
+      },
+      {
+        "Loss": 0.1406,
+        "Accuracy": 0.9427,
+        "Precision": 0.9416,
+        "Recall": 0.9414,
+        "ValLoss": 0.1001,
+        "ValAccuracy": 0.9606,
+        "ValPrecision": 0.9451,
+        "ValRecall": 0.9816
+      },
+      {
+        "Loss": 0.137,
+        "Accuracy": 0.9451,
+        "Precision": 0.9425,
+        "Recall": 0.9455,
+        "ValLoss": 0.0897,
+        "ValAccuracy": 0.9632,
+        "ValPrecision": 0.9577,
+        "ValRecall": 0.9725
+      },
+      {
+        "Loss": 0.1328,
+        "Accuracy": 0.9467,
+        "Precision": 0.9443,
+        "Recall": 0.947,
+        "ValLoss": 0.0895,
+        "ValAccuracy": 0.9633,
+        "ValPrecision": 0.9592,
+        "ValRecall": 0.9711
+      },
+      {
+        "Loss": 0.1318,
+        "Accuracy": 0.9454,
+        "Precision": 0.9425,
+        "Recall": 0.9461,
+        "ValLoss": 0.2015,
+        "ValAccuracy": 0.9165,
+        "ValPrecision": 0.8664,
+        "ValRecall": 0.9931
+      },
+      {
+        "Loss": 0.1264,
+        "Accuracy": 0.949,
+        "Precision": 0.9478,
+        "Recall": 0.948,
+        "ValLoss": 0.0834,
+        "ValAccuracy": 0.9641,
+        "ValPrecision": 0.9802,
+        "ValRecall": 0.9504
+      },
+      {
+        "Loss": 0.1288,
+        "Accuracy": 0.9485,
+        "Precision": 0.9464,
+        "Recall": 0.9486,
+        "ValLoss": 0.1511,
+        "ValAccuracy": 0.9332,
+        "ValPrecision": 0.9866,
+        "ValRecall": 0.8841
+      },
+      {
+        "Loss": 0.1227,
+        "Accuracy": 0.9503,
+        "Precision": 0.948,
+        "Recall": 0.9506,
+        "ValLoss": 0.0889,
+        "ValAccuracy": 0.9624,
+        "ValPrecision": 0.981,
+        "ValRecall": 0.9464
+      },
+      {
+        "Loss": 0.12,
+        "Accuracy": 0.9509,
+        "Precision": 0.9489,
+        "Recall": 0.951,
+        "ValLoss": 0.0744,
+        "ValAccuracy": 0.9732,
+        "ValPrecision": 0.9822,
+        "ValRecall": 0.9662
+      },
+      {
+        "Loss": 0.1201,
+        "Accuracy": 0.9512,
+        "Precision": 0.9491,
+        "Recall": 0.9515,
+        "ValLoss": 0.0843,
+        "ValAccuracy": 0.9641,
+        "ValPrecision": 0.9793,
+        "ValRecall": 0.9513
+      },
+      {
+        "Loss": 0.1163,
+        "Accuracy": 0.953,
+        "Precision": 0.9507,
+        "Recall": 0.9535,
+        "ValLoss": 0.0908,
+        "ValAccuracy": 0.9623,
+        "ValPrecision": 0.981,
+        "ValRecall": 0.9461
+      }
+    ]
+  }
+]

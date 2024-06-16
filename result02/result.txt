@@ -1,0 +1,80 @@
+C:\Users\AmanPC\miniconda3\envs\ENVforAI\python.exe C:\Users\AmanPC\PycharmProjects\cat-dog-classifier\train_model.py 
+Found 47131 images belonging to 2 classes.
+Found 6684 images belonging to 2 classes.
+2024-06-14 14:40:54.343241: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-06-14 14:40:54.785151: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1616] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 9444 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4070, pci bus id: 0000:08:00.0, compute capability: 8.9
+Epoch 1/30
+2024-06-14 14:40:56.542806: I tensorflow/stream_executor/cuda/cuda_dnn.cc:384] Loaded cuDNN version 8100
+2024-06-14 14:40:57.260250: E tensorflow/core/platform/windows/subprocess.cc:287] Call to CreateProcess failed. Error code: 2, command: '"ptxas.exe" "--version"'
+2024-06-14 14:40:57.260958: E tensorflow/core/platform/windows/subprocess.cc:287] Call to CreateProcess failed. Error code: 2, command: '"ptxas.exe" "--version"'
+2024-06-14 14:40:57.261094: W tensorflow/stream_executor/gpu/asm_compiler.cc:80] Couldn't get ptxas version string: INTERNAL: Couldn't invoke ptxas.exe --version
+2024-06-14 14:40:57.262563: E tensorflow/core/platform/windows/subprocess.cc:287] Call to CreateProcess failed. Error code: 2, command: '"ptxas.exe" "C:\Users\AmanPC\AppData\Local\Temp\/tempfile-DESKTOP-GF8750P-6f5c-40348-61ad8ed5484aa" "-o" "C:\Users\AmanPC\AppData\Local\Temp\/tempfile-DESKTOP-GF8750P-6f5c-40348-61ad8ed5487e8" "-arch=sm_89" "--warn-on-spills"'
+2024-06-14 14:40:57.262975: W tensorflow/stream_executor/gpu/redzone_allocator.cc:314] INTERNAL: Failed to launch ptxas
+Relying on driver to perform ptx compilation. 
+Modify $PATH to customize ptxas location.
+This message will be only logged once.
+2024-06-14 14:40:58.433944: I tensorflow/stream_executor/cuda/cuda_blas.cc:1614] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+ 433/2356 [====>.........................] - ETA: 2:46 - loss: 0.7421 - accuracy: 0.6279 - precision: 0.6215 - recall: 0.6208C:\Users\AmanPC\miniconda3\envs\ENVforAI\lib\site-packages\PIL\TiffImagePlugin.py:890: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+2356/2356 [==============================] - 217s 90ms/step - loss: 0.5967 - accuracy: 0.6929 - precision: 0.6908 - recall: 0.6753 - val_loss: 0.4577 - val_accuracy: 0.7783 - val_precision: 0.7446 - val_recall: 0.8755 - lr: 1.0000e-04
+Epoch 2/30
+2356/2356 [==============================] - 213s 91ms/step - loss: 0.4651 - accuracy: 0.7783 - precision: 0.7760 - recall: 0.7693 - val_loss: 0.3805 - val_accuracy: 0.8259 - val_precision: 0.7765 - val_recall: 0.9361 - lr: 1.0000e-04
+Epoch 3/30
+2356/2356 [==============================] - 215s 91ms/step - loss: 0.3794 - accuracy: 0.8292 - precision: 0.8244 - recall: 0.8277 - val_loss: 0.3476 - val_accuracy: 0.8466 - val_precision: 0.9360 - val_recall: 0.7581 - lr: 1.0000e-04
+Epoch 4/30
+2356/2356 [==============================] - 218s 92ms/step - loss: 0.3164 - accuracy: 0.8615 - precision: 0.8581 - recall: 0.8593 - val_loss: 0.2361 - val_accuracy: 0.8990 - val_precision: 0.9233 - val_recall: 0.8796 - lr: 1.0000e-04
+Epoch 5/30
+2356/2356 [==============================] - 218s 92ms/step - loss: 0.2803 - accuracy: 0.8779 - precision: 0.8751 - recall: 0.8757 - val_loss: 0.2146 - val_accuracy: 0.9082 - val_precision: 0.8760 - val_recall: 0.9602 - lr: 1.0000e-04
+Epoch 6/30
+2356/2356 [==============================] - 216s 92ms/step - loss: 0.2566 - accuracy: 0.8898 - precision: 0.8865 - recall: 0.8888 - val_loss: 0.1726 - val_accuracy: 0.9322 - val_precision: 0.9186 - val_recall: 0.9547 - lr: 1.0000e-04
+Epoch 7/30
+2356/2356 [==============================] - 216s 92ms/step - loss: 0.2403 - accuracy: 0.8972 - precision: 0.8941 - recall: 0.8962 - val_loss: 0.1845 - val_accuracy: 0.9225 - val_precision: 0.9368 - val_recall: 0.9131 - lr: 1.0000e-04
+Epoch 8/30
+2356/2356 [==============================] - 217s 92ms/step - loss: 0.2252 - accuracy: 0.9049 - precision: 0.9023 - recall: 0.9038 - val_loss: 0.1492 - val_accuracy: 0.9383 - val_precision: 0.9345 - val_recall: 0.9484 - lr: 1.0000e-04
+Epoch 9/30
+2356/2356 [==============================] - 215s 91ms/step - loss: 0.2075 - accuracy: 0.9125 - precision: 0.9087 - recall: 0.9131 - val_loss: 0.1836 - val_accuracy: 0.9187 - val_precision: 0.9538 - val_recall: 0.8874 - lr: 1.0000e-04
+Epoch 10/30
+2356/2356 [==============================] - 216s 91ms/step - loss: 0.1983 - accuracy: 0.9170 - precision: 0.9147 - recall: 0.9160 - val_loss: 0.2091 - val_accuracy: 0.9111 - val_precision: 0.8603 - val_recall: 0.9905 - lr: 1.0000e-04
+Epoch 11/30
+2356/2356 [==============================] - 215s 91ms/step - loss: 0.1867 - accuracy: 0.9221 - precision: 0.9206 - recall: 0.9205 - val_loss: 0.1737 - val_accuracy: 0.9235 - val_precision: 0.8822 - val_recall: 0.9851 - lr: 1.0000e-04
+Epoch 12/30
+2356/2356 [==============================] - 216s 92ms/step - loss: 0.1815 - accuracy: 0.9257 - precision: 0.9216 - recall: 0.9272 - val_loss: 0.1371 - val_accuracy: 0.9434 - val_precision: 0.9344 - val_recall: 0.9590 - lr: 1.0000e-04
+Epoch 13/30
+2356/2356 [==============================] - 217s 92ms/step - loss: 0.1713 - accuracy: 0.9297 - precision: 0.9264 - recall: 0.9305 - val_loss: 0.1220 - val_accuracy: 0.9515 - val_precision: 0.9409 - val_recall: 0.9679 - lr: 1.0000e-04
+Epoch 14/30
+2356/2356 [==============================] - 216s 91ms/step - loss: 0.1673 - accuracy: 0.9311 - precision: 0.9276 - recall: 0.9320 - val_loss: 0.1202 - val_accuracy: 0.9534 - val_precision: 0.9576 - val_recall: 0.9530 - lr: 1.0000e-04
+Epoch 15/30
+2356/2356 [==============================] - 215s 91ms/step - loss: 0.1584 - accuracy: 0.9351 - precision: 0.9320 - recall: 0.9358 - val_loss: 0.0986 - val_accuracy: 0.9615 - val_precision: 0.9555 - val_recall: 0.9716 - lr: 1.0000e-04
+Epoch 16/30
+2356/2356 [==============================] - 214s 91ms/step - loss: 0.1575 - accuracy: 0.9346 - precision: 0.9315 - recall: 0.9353 - val_loss: 0.1031 - val_accuracy: 0.9609 - val_precision: 0.9585 - val_recall: 0.9670 - lr: 1.0000e-04
+Epoch 17/30
+2356/2356 [==============================] - 215s 91ms/step - loss: 0.1496 - accuracy: 0.9379 - precision: 0.9338 - recall: 0.9399 - val_loss: 0.1071 - val_accuracy: 0.9525 - val_precision: 0.9396 - val_recall: 0.9716 - lr: 1.0000e-04
+Epoch 18/30
+2356/2356 [==============================] - 214s 91ms/step - loss: 0.1425 - accuracy: 0.9419 - precision: 0.9384 - recall: 0.9432 - val_loss: 0.1103 - val_accuracy: 0.9546 - val_precision: 0.9533 - val_recall: 0.9601 - lr: 1.0000e-04
+Epoch 19/30
+2356/2356 [==============================] - 218s 93ms/step - loss: 0.1394 - accuracy: 0.9435 - precision: 0.9408 - recall: 0.9441 - val_loss: 0.1105 - val_accuracy: 0.9573 - val_precision: 0.9443 - val_recall: 0.9759 - lr: 1.0000e-04
+Epoch 20/30
+2356/2356 [==============================] - 213s 91ms/step - loss: 0.1378 - accuracy: 0.9448 - precision: 0.9407 - recall: 0.9470 - val_loss: 0.0867 - val_accuracy: 0.9650 - val_precision: 0.9766 - val_recall: 0.9558 - lr: 1.0000e-04
+Epoch 21/30
+2356/2356 [==============================] - 210s 89ms/step - loss: 0.1324 - accuracy: 0.9469 - precision: 0.9443 - recall: 0.9474 - val_loss: 0.0949 - val_accuracy: 0.9620 - val_precision: 0.9432 - val_recall: 0.9865 - lr: 1.0000e-04
+Epoch 22/30
+2356/2356 [==============================] - 210s 89ms/step - loss: 0.1313 - accuracy: 0.9475 - precision: 0.9449 - recall: 0.9481 - val_loss: 0.1238 - val_accuracy: 0.9485 - val_precision: 0.9221 - val_recall: 0.9845 - lr: 1.0000e-04
+Epoch 23/30
+2356/2356 [==============================] - 210s 89ms/step - loss: 0.1250 - accuracy: 0.9502 - precision: 0.9471 - recall: 0.9515 - val_loss: 0.0992 - val_accuracy: 0.9623 - val_precision: 0.9573 - val_recall: 0.9710 - lr: 1.0000e-04
+Epoch 24/30
+2356/2356 [==============================] - 211s 89ms/step - loss: 0.1236 - accuracy: 0.9499 - precision: 0.9472 - recall: 0.9507 - val_loss: 0.0935 - val_accuracy: 0.9627 - val_precision: 0.9558 - val_recall: 0.9736 - lr: 1.0000e-04
+Epoch 25/30
+2356/2356 [==============================] - 212s 90ms/step - loss: 0.1216 - accuracy: 0.9505 - precision: 0.9473 - recall: 0.9519 - val_loss: 0.0788 - val_accuracy: 0.9696 - val_precision: 0.9748 - val_recall: 0.9667 - lr: 1.0000e-04
+Epoch 26/30
+2356/2356 [==============================] - 214s 91ms/step - loss: 0.1150 - accuracy: 0.9539 - precision: 0.9513 - recall: 0.9548 - val_loss: 0.0830 - val_accuracy: 0.9677 - val_precision: 0.9575 - val_recall: 0.9817 - lr: 1.0000e-04
+Epoch 27/30
+2356/2356 [==============================] - 215s 91ms/step - loss: 0.1155 - accuracy: 0.9545 - precision: 0.9522 - recall: 0.9551 - val_loss: 0.0793 - val_accuracy: 0.9693 - val_precision: 0.9607 - val_recall: 0.9814 - lr: 1.0000e-04
+Epoch 28/30
+2356/2356 [==============================] - 214s 91ms/step - loss: 0.1140 - accuracy: 0.9542 - precision: 0.9512 - recall: 0.9556 - val_loss: 0.0751 - val_accuracy: 0.9725 - val_precision: 0.9706 - val_recall: 0.9768 - lr: 1.0000e-04
+Epoch 29/30
+2356/2356 [==============================] - 216s 92ms/step - loss: 0.1116 - accuracy: 0.9558 - precision: 0.9539 - recall: 0.9559 - val_loss: 0.0807 - val_accuracy: 0.9683 - val_precision: 0.9632 - val_recall: 0.9765 - lr: 1.0000e-04
+Epoch 30/30
+2356/2356 [==============================] - 215s 91ms/step - loss: 0.1112 - accuracy: 0.9560 - precision: 0.9546 - recall: 0.9556 - val_loss: 0.1050 - val_accuracy: 0.9588 - val_precision: 0.9350 - val_recall: 0.9900 - lr: 1.0000e-04
+
+Process finished with exit code 0
