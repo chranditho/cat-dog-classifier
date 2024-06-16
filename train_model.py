@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import json
 import os
 
+
 # Load configuration
 with open('config.json') as config_file:
     config = json.load(config_file)
@@ -20,6 +21,16 @@ epochs = config['epochs']
 learning_rate = config['learning_rate']
 dropout_rate = config['dropout_rate']
 model_save_path = config['model_save_path']
+
+conv_1 = 32
+conv_2 = 96
+conv_3 = 256
+conv_4 = 256
+conv_5 = 256
+dense_units_1 = 512
+dense_units_2 = 256
+dropout_rate = 0.3
+
 
 # Ensure the model save path ends with .keras
 if not model_save_path.endswith('.keras'):
@@ -63,20 +74,25 @@ validation_steps = validation_generator.samples // batch_size
 # Building the CNN model
 model = Sequential([
     Input(shape=(image_size[0], image_size[1], 3)),
-    Conv2D(32, (3, 3), activation='relu'),
+    Conv2D(conv_1, (3, 3), activation='relu'),
     BatchNormalization(),
     MaxPooling2D(2, 2),
-    Conv2D(64, (3, 3), activation='relu'),
+    Conv2D(conv_2, (3, 3), activation='relu'),
     BatchNormalization(),
     MaxPooling2D(2, 2),
-    Conv2D(128, (3, 3), activation='relu'),
+    Conv2D(conv_3, (3, 3), activation='relu'),
     BatchNormalization(),
     MaxPooling2D(2, 2),
-    Conv2D(128, (3, 3), activation='relu'),
+    Conv2D(conv_4, (3, 3), activation='relu'),
+    BatchNormalization(),
+    MaxPooling2D(2, 2),
+    Conv2D(conv_5, (3, 3), activation='relu'),  # Added layer
     BatchNormalization(),
     MaxPooling2D(2, 2),
     Flatten(),
-    Dense(512, activation='relu'),
+    Dense(dense_units_1, activation='relu'),
+    Dropout(dropout_rate),
+    Dense(dense_units_2, activation='relu'),
     Dropout(dropout_rate),
     Dense(1, activation='sigmoid')
 ])
