@@ -74,7 +74,7 @@ validation_steps = validation_generator.samples // batch_size
 # Building the CNN model
 model = Sequential([
     Input(shape=(image_size[0], image_size[1], 3)),
-    Conv2D(conv_1, (3, 3), activation='relu'),
+    Conv2D(conv_1, (5, 5), activation='relu'),
     BatchNormalization(),
     MaxPooling2D(2, 2),
     Conv2D(conv_2, (3, 3), activation='relu'),
@@ -86,7 +86,7 @@ model = Sequential([
     Conv2D(conv_4, (3, 3), activation='relu'),
     BatchNormalization(),
     MaxPooling2D(2, 2),
-    Conv2D(conv_5, (3, 3), activation='relu'),  # Added layer
+    Conv2D(conv_5, (2, 2), activation='relu'),
     BatchNormalization(),
     MaxPooling2D(2, 2),
     Flatten(),

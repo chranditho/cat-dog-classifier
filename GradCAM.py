@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 image_size = (150, 150)
 
 # Load your trained Keras model
-model = load_model('results/trial_1/best_model.keras')  # Replace with your model path
+model = load_model('result06/cat_vs_dog_classifier.keras')  # Replace with your model path
 
 class GradCAM:
     def __init__(self, model, class_index, layer_name):
@@ -56,11 +56,11 @@ class GradCAM:
         return heatmap, predicted_class, np.max(predictions[0])
 
 # List of layer names you want to visualize (replace with actual layer names from your model)
-layer_names = ['conv2d', 'conv2d_1', 'conv2d_2', 'conv2d_3', 'conv2d_4']
+layer_names = ['conv2d_4','conv2d_5']
 
 # Example usage after training
 # Assuming you have a list of image paths for visualization
-image_paths = ['image05.jpg']
+image_paths = ['image10.png']
 
 # Initialize Grad-CAM for each layer
 for layer_name in layer_names:
